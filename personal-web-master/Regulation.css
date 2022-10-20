@@ -1,0 +1,21 @@
+/* general styles */
+
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+	  background-color: #5fd8c8;
+  }
+h1{
+    color: rgb(255, 255, 255);
+    position: center;
+}
+h2{
+    color: green;
+}
+h3{
+    color: rgb(255, 0, 21);
+    font-weight: 500px;
+}
+.copyright{
+    color: red;
+    text-align: center;
+}

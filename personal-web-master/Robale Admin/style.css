@@ -1,0 +1,96 @@
+
+.money{
+    color: rgb(0, 255, 255);
+    font-size: 2rem; 
+}
+.odaa{
+    color: rgb(17, 0, 255);
+}
+.kushaa{
+    color: red;
+}
+.galoo{
+    color: red;
+}
+header{
+    text-align: center;
+}
+header > h1{
+    font-size: 25px;
+} 
+header > h2{
+    font-family: 20px;
+}
+.main{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 80%; 
+    margin: 0 auto;
+}
+.main-section{
+    width: 28%;
+    height: 150px; 
+    padding: 15px;
+    color: white;
+    border-radius: 7px;
+}
+.main-section > span{
+    font-size: 2.5rem;
+}
+.diposit{
+    background-color: #d211b1;
+}
+.withdraw{
+    background-color: #bbb504;
+} 
+.balance{
+    background-color: #bf01bf;
+}
+.main2{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 80%; 
+    margin: 0 auto;
+} 
+.deposit-section{
+    background-color: #02fffb;
+    height: 180px;
+    width: 46%;
+    padding: 15px;
+    margin-right: 5px;
+    border-radius: 15px;
+} 
+.withdraw-section{
+    background-color: #b5fc00;
+    height: 180px;
+    width: 46%;
+    padding: 15px;
+    margin-left: 5px;
+    border-radius: 15px;
+}
+#depositAddBtn,#withdraw-btn{
+    background-color: #8504ca;
+    height: 40px;
+    width: 120px;
+    border: none;
+    border-radius: 7px;
+    color: white;
+    font-size: 18px;
+    cursor: pointer;
+}
+#depositInput,#withdraw-input{
+    width: 380px;
+    height: 22px;
+    font-size: 16px;
+    
+}
+footer{
+    text-align: center;
+}
+
+.li{
+    font-family: calibri;
+    font-weight: 500px;
+}
